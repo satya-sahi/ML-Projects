@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/*.xlsx
+data/*.csv
+!data/.gitkeep
+
+# Model files
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DVC
+.dvc/tmp
+.dvc/cache
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
